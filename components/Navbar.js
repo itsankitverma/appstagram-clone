@@ -13,7 +13,7 @@ import ProfilePicture from "../assets/profile.jpeg";
 function Navbar() {
   return (
     <div className="fixed w-full bg-gray-50 z-10">
-      <div className="flex items-center justify-evenly px-10 py-5">
+      <div className="flex items-center md:justify-evenly md:px-10 py-5 gap-1 md:gap-0 justify-between px-4">
         <Image
           src={AppstagramLogo}
           alt="Appstagram"
@@ -27,7 +27,7 @@ function Navbar() {
             name=""
             id=""
             placeholder="Search"
-            className="px-3 py-1 border-[1px] border-gray-500 rounded-lg"
+            className="px-3 py-1 border-[1px] border-gray-500 rounded-lg hidden md:block"
           />
         </div>
         <div className="flex gap-3 items-center">
