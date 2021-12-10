@@ -12,7 +12,7 @@ import ImageOne from "../assets/image1.png";
 
 function Posts() {
   return (
-    <div className="relative left-3 md:left-0 px-2">
+    <div className="relative left-1 md:left-0 px-2">
       <div className="mt-5 flex flex-col gap-3">
         <div className="flex justify-between">
           <div className="flex items-center gap-2">
