@@ -4,7 +4,7 @@ import Stories from "./Stories";
 
 function LeftComponent() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
       <Stories />
       <Posts />
     </div>

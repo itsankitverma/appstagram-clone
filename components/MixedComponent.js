@@ -4,7 +4,7 @@ import RightComponent from "./RightComponent";
 
 function MixedComponent() {
   return (
-    <div className="flex  justify-center gap-16 pt-28 ">
+    <div className="flex justify-center md:gap-16 md:pt-28 pt-20">
       <LeftComponent />
       <RightComponent />
     </div>
