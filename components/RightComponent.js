@@ -4,7 +4,7 @@ import Suggestions from "./Suggestions";
 
 function RightComponent() {
   return (
-    <div className="">
+    <div className="hidden md:block">
       <NameComponent />
       <Suggestions />
     </div>
