@@ -2,10 +2,10 @@ import React from "react";
 import NameComponent from "./NameComponent";
 import Suggestions from "./Suggestions";
 
-function RightComponent() {
+function RightComponent(props) {
   return (
-    <div className="">
-      <NameComponent />
+    <div className="hidden md:block">
+      <NameComponent details={props.details}/>
       <Suggestions />
     </div>
   );

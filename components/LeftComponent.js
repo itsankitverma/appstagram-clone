@@ -2,11 +2,11 @@ import React from "react";
 import Posts from "./Posts";
 import Stories from "./Stories";
 
-function LeftComponent() {
+function LeftComponent(props) {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center w-full">
       <Stories />
-      <Posts />
+      <Posts details={props.details}/>
     </div>
   );
 }
