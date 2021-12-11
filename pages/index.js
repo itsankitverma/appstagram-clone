@@ -1,11 +1,9 @@
 import React from "react";
 import MixedComponent from "../components/MixedComponent";
-import Navbar from "../components/Navbar";
 
 function Index() {
   return (
-    <div>
-      <Navbar />
+    <div className="flex items-center justify-center ">
       <MixedComponent />
     </div>
   );
